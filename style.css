@@ -9,6 +9,7 @@ header {
     width: 100%;
     margin-bottom: 20px;
     display: flex;
+    align-items: center; 
 }
 
 .button {
@@ -32,6 +33,7 @@ nav {
     font-size: 24px;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    display: block;
 }
 
 h1 {
@@ -47,11 +49,10 @@ p {
 }
 
 .info {
-    width: 1100px;
-    margin: 0px;
+    max-width: 1100px;
     display: flex;
-    flex-wrap:nowrap;
-
+    flex-wrap: wrap;
+    margin: 0px auto 0px auto; 
 }
 
 article {
